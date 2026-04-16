@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ipl-analytics-hub
+  profiles:
+    active: vercel

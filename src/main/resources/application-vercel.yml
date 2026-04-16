@@ -1,0 +1,26 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /ipl-analytics
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    generate-ddl: true
+
+  datasource:
+    url: jdbc:postgresql://db.prisma.io:5432/postgres?sslmode=require
+    username: 60b9316a4e0aa226f03b76dc8bcaabdd285c17e2935d47f70a19a9b6ae753732
+    password: sk_Kkamy3fZ9Y7cthBkbEjUm
+    driver-class-name: org.postgresql.Driver
+
+  sql:
+    init:
+      mode: always
+
+cricket:
+  api:
+    key: 025a8ca3-55df-4640-9ee1-c97863776371
